@@ -1,3 +1,4 @@
+// spi mode 2 hack by https://github.com/splinedrive
 module spi_mode2(input clk, 
            input mosi_in,
            output mosi_out,

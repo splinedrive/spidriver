@@ -311,7 +311,7 @@ if __name__ == '__main__':
         sys.exit(1)
     optdict = dict(optlist)
 
-    st = ST7789(SPIDriver(optdict.get('-h', "/dev/ttyUSB3")))
+    st = ST7789(SPIDriver(optdict.get('-h', "/dev/ttyUSB0")))
     st.start()
     st.clear()
     for a in args:
